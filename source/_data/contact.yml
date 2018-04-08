@@ -1,0 +1,9 @@
+- title: github
+  icon: icon-github
+  link: https://github.com/GWmodel-Lab
+- title: email
+  icon: icon-email
+  link: mailto:BinbinLu@whu.edu.cn
+- title: rss
+  icon: icon-rss
+  link: /atom.xml
