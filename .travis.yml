@@ -16,4 +16,3 @@ deploy:
     branch: src
   target-branch: master
   local-dir: public
-  repo: GWmodel-Lab/GWmodel-Lab.github.io 
