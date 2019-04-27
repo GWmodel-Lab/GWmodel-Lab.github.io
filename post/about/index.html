@@ -3,15 +3,21 @@
   <head>
     <meta charset="utf-8" >
 
-<title>关于 | Gridea</title>
-<meta name="description" content="温故而知新">
+<title>关于 | GWmodel-Lab</title>
+<meta name="description" content="地理加权建模实验室">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="C:/Users/Administrator/Documents/Gridea/output/favicon.ico?v=1556327607033">
-<link rel="stylesheet" href="C:/Users/Administrator/Documents/Gridea/output/styles/main.css">
+<link rel="shortcut icon" href="https://gwmodel-lab.github.io//favicon.ico?v=1556330129900">
+<link rel="stylesheet" href="https://gwmodel-lab.github.io//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -28,9 +34,9 @@
       <div class="sidebar" :class="{ 'full-height': menuVisible }">
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
-      <a class="site-title-container" href="C:/Users/Administrator/Documents/Gridea/output">
-        <img src="C:/Users/Administrator/Documents/Gridea/output/images/avatar.png?v=1556327607033" class="site-logo">
-        <h1 class="site-title">Gridea</h1>
+      <a class="site-title-container" href="https://gwmodel-lab.github.io/">
+        <img src="https://gwmodel-lab.github.io//images/avatar.png?v=1556330129900" class="site-logo">
+        <h1 class="site-title">GWmodel-Lab</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
         <div class="line"></div>
@@ -39,25 +45,25 @@
     <div>
       
         
-          <a href="C:/Users/Administrator/Documents/Gridea/output//index.html" class="site-nav">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="C:/Users/Administrator/Documents/Gridea/output/archives/index.html" class="site-nav">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="C:/Users/Administrator/Documents/Gridea/output/tags/index.html" class="site-nav">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="C:/Users/Administrator/Documents/Gridea/output/post/about/index.html" class="site-nav">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
@@ -79,7 +85,7 @@
       
     </div>
     <div class="site-description">
-      温故而知新
+      地理加权建模实验室
     </div>
     <div class="site-footer">
       Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
@@ -101,6 +107,12 @@
             
             
 
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
             
 
           </div>
@@ -125,6 +137,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '0fa4be717389b11230d5',
+        clientSecret: 'aced03db6d00538c3f3e8c1e03aae6cb3ce1abe6',
+        repo: 'GWmodel-Lab.github.io',
+        owner: 'GWmodel-Lab',
+        admin: ['GWmodel-Lab'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

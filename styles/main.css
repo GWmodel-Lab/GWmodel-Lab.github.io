@@ -1628,10 +1628,20 @@ a {
   margin: 4px 8px;
 }
 
-      .sidebar {
-        width: undefined;
-      }
-      .main-container {
-        margin-left: undefined;
-      }
+      .sidebar { overflow-y: auto; }
+.body { font-size: 14px; }
+.post-detail .post-content p { font-size: 16px; }
+.post-detail .post-content blockquote p { line-height: 1.5; }
+.post-detail .post-content table { width: 100%; }
+.post-detail .post-content ul li code { 
+  padding: 0 3px;
+  margin: 0 2px;
+  background: #e9ecef;
+  font-size: 0.9em;
+  border-radius: 2px;
+  border: 1px solid #dee2e6;
+  display: inline-block;
+  line-height: 1.5;
+  color: #868e96;
+}
     
