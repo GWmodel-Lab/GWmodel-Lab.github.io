@@ -162,11 +162,11 @@ about:
   email: BinbinLu@whu.edu.cn
 
 # Gitalk
-gitTalk:
-  clientId: 0fa4be717389b11230d5
-  clientSecret: aced03db6d00538c3f3e8c1e03aae6cb3ce1abe6
-  repo: GWmodel-Lab.github.io
-  owner: GWmodel-Lab
-  admin: 
-    - HPDell
-    - CS-Tao
+# gitTalk:
+#   clientId: 0fa4be717389b11230d5
+#   clientSecret: aced03db6d00538c3f3e8c1e03aae6cb3ce1abe6
+#   repo: GWmodel-Lab.github.io
+#   owner: GWmodel-Lab
+#   admin: 
+#     - HPDell
+#     - CS-Tao
